@@ -1,9 +1,76 @@
-<html>
-    <head>
-        <title>Моя первая страница</title>
-    </head>
-    <body>
-        <h1>Добро пожаловать</h1>
-        <p>Это код который я создал в Visual Studio</p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Все о футболе</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        header {
+            margin: 20px 0px;
+        }
+        header nav ul{
+        /*list-style: none; /*Убирает точки у элементов списка*/
+            display: flex; /*Все элементы встали в строку*/
+            justify-content: center; /*Элементы стали вправо*/
+        }
+        header nav ul li{
+            list-style: none; /*Убирает точки у элементов списка*/
+            margin-right: 50px;
+        }
+        header nav ul li a{
+            text-decoration: none;
+            color:crimson;
+            font-size: 20px;
+            line-height: 20px;
+            font-weight: bold;
+            
+            border: 2px solid #000;
+            padding: 4px 4px;
+            border-radius: 10px;
+            display: block;
+        }
+        header nav ul li a:hover{
+            /*background: linear-gradient(45deg, rgb(41,139,36) 0%, rgb(130, 77, 192) 100%);*/
+            background: rgb(52, 168, 177);
+            color: #fff;
+            transition: all 1s;
+        }
+        header nav ul li a:active{
+            background: rgb(17, 0, 255);
+            border: 2px solid rgb(24, 185, 72);
+        }
+    </style>
+</head>
+<body>
+    <a id="back"></a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#team">О команде</a></li>
+                <li><a href="#football">Футболисты</a></li>
+                <li><a href="#play">Игры</a></li>
+            </ul>
+        </nav>     
+    </header>
+    <main>
+        <section id="team" style="height: 100vh;">
+            <h2>О команде</h2>
+        </section>
+        <section id="football" style="height: 100vh;">
+            <h2>Список футболистов</h2>
+        </section>
+        <section id="play" style="height: 100vh;">
+            <h2>Расписание матчей</h2>
+            <a href="#back">Назад</a>
+        </section>
+    </main> 
+</body>
 </html>
