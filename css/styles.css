@@ -3,30 +3,30 @@ body {background-color: lightblue;
 #top {color: rgb(24, 56, 116);
     text-align: center;
     font-family: Times;
-    border: 5px solid #bd1a8c;
+    border: 2px solid #bd1a8c;
     background-color: #cdd82d;
     padding: 5px 20px 20px 20px;
-    width: 800px;
     height: 60px;
+    width: 800px;
 }
 h1 {color: black;
     text-align: center;
     font-family: Arial;
     border: 8px double #8c90c7;
     background-color: #b159a5;
-    padding: 40px 20px 40px 20px;
-    width: 800px;
+    padding: 5px 12px 10px 20px;
     height: 50px;
-}
+    width: 800px;
+   }
 h2 {color: rgb(56, 207, 68); text-align: left;
 }
 h3 {color: red; text-align: left;
 }
 p {color: grey; text-align: left; font-family: Georgia;
 }
-.kart {border: 10px solid #b61a12;
+.kart {border: 5px solid #b61a12;
 background-color: #a9e9a9;
-padding: 20px;
+padding: 10px;
 margin-left: 1000px;
 width: 400px;
 }

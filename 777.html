@@ -5,49 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Все о футболе</title>
-    <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
-        html{
-            scroll-behavior: smooth;
-        }
-        header {
-            margin: 20px 0px;
-        }
-        header nav ul{
-        /*list-style: none; /*Убирает точки у элементов списка*/
-            display: flex; /*Все элементы встали в строку*/
-            justify-content: center; /*Элементы стали вправо*/
-        }
-        header nav ul li{
-            list-style: none; /*Убирает точки у элементов списка*/
-            margin-right: 50px;
-        }
-        header nav ul li a{
-            text-decoration: none;
-            color:crimson;
-            font-size: 20px;
-            line-height: 20px;
-            font-weight: bold;
-            
-            border: 2px solid #000;
-            padding: 4px 4px;
-            border-radius: 10px;
-            display: block;
-        }
-        header nav ul li a:hover{
-            /*background: linear-gradient(45deg, rgb(41,139,36) 0%, rgb(130, 77, 192) 100%);*/
-            background: rgb(52, 168, 177);
-            color: #fff;
-            transition: all 1s;
-        }
-        header nav ul li a:active{
-            background: rgb(17, 0, 255);
-            border: 2px solid rgb(24, 185, 72);
-        }
-    </style>
+    <link href="css/stylesfootball.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
     <a id="back"></a>
@@ -63,6 +21,21 @@
     <main>
         <section id="team" style="height: 100vh;">
             <h2>О команде</h2>
+                <div class="product-ball"> 
+                    <div class="product-ball_img">
+                        <img src="https://e7.pngegg.com/pngimages/851/937/png-clipart-american-football-ball-volleyball-sports-equipment.png"
+                        height="100">
+                    </div>
+                    <div class="product-ball_info">
+                        <div class="product-ball_info_title">
+                            <p>Мяч футбольный. Ручной пошив. Артикул 1285.</p>
+                            <p> Цена 120,00 р.</p>
+                        </div>
+                        <div class="product-ball_info_buy">
+                            <a href="#buy" style="text-decoration: none; color: crimson;">БЫСТРО КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
         </section>
         <section id="football" style="height: 100vh;">
             <h2>Список футболистов</h2>
