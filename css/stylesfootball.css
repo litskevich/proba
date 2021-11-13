@@ -52,18 +52,16 @@
         }
         .product-ball_info{
             width: 100%;
+
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
         }
         .product-ball_info_buy{
+            margin-top: auto;
             display: flex;
-            justify-content: space-between;
-            color:crimson;
-            font-size: 20px;
-            line-height: 20px;
-            font-weight: bold;
-            
-            border: 2px solid #000;
-            border-radius: 10px;
-            padding: 4px 4px;
-
-            margin: 45px 10px 5px 260px;
+            justify-content: end;
+        }
+        .product-ball_info_buy a{
+            display: block;
         }

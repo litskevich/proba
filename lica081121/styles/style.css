@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    /*background-color: burlywood;*/
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.2);
+
+    position: absolute;
+    z-index: 1;
+}
+.vverh{
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+header nav ul{
+    display: flex;
+}
+.banner{
+    position: relative;
+}
+.banner-info{
+    position: absolute;
+    width: 530px;
+    bottom: 100px;
+    left: 70px; 
+}
+.info1{
+    color:rgba(241, 232, 232);
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin-bottom: 100px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+}
+.info2{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+}
+.info3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.data{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E5E5E5;
+}
+.middle-line{
+    height: 1px;
+    width: 30px;
+    background-color: #E5E5E5;
+    margin: 0px 10px;
+}
+.text1{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E5E5E5;
+}
