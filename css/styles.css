@@ -10,7 +10,7 @@ ul {
 }
 header{
     /*border: 5px solid #bd1a8c;*/
-    background-color: #cdd82d;
+    background-color: #94969e;
     height: 80px;
     width: 100%;
 
@@ -27,7 +27,7 @@ header{
 }
 .top {
     text-align: center;
-    width: 500px;
+    /*width: 500px;*/
     margin: 0px 20px;
     color: #b61a12;
 }
@@ -49,10 +49,32 @@ header{
 .priroda-spis ul li a:hover{
     color: #ffffff;
     transition: all 0.3s;
-  }
+}
+.banner1{
+    position: relative;
+}
+.banner1 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.banner1-info{
+    position:absolute;
+    /*border: 2px solid #b61a12;*/
+    top: 250px;
+    left: 50px;
+}
+.banner1-info h2{
+    color: white;
+    font-size: 30px;
+}
+.banner1-info h3{
+    color: white;
+    font-size: 25px;
+}
 .container {
     width: 1400px;
-    margin: 50px auto;
+    margin: 500px auto;
     /*background-color: #f16412;*/
 }
 .water-list{
@@ -94,27 +116,11 @@ header{
     overflow: hidden;
     border-radius: 5px;
 }
-h2 {
-    color: rgb(56, 207, 68); text-align: left;
-}
-h3 {
-    color: red; text-align: left;
-}
-p {
-    color: black; text-align: left; font-family: Georgia;
-}
 .kart {
     border: 10px solid #b61a12;
 background-color: #a9e9a9;
 padding: 20px;
 width: 400px;
-}
-.igor {
-    color: rgb(117, 16, 148);
-    border: 1px solid #1299bb;
-    background-color: #bd96c2;
-    padding: 20px;
-    width: 800px;
 }
 footer {
     width: 100%;
